@@ -1,0 +1,4 @@
+dist
+coverage
+.changeset/*.md
+package-lock.json

@@ -1,0 +1,31 @@
+{
+  "name": "@laura-canvas/qa",
+  "version": "0.0.0",
+  "description": "Design QA: overflow, contrast, safe area, image resolution and locked-layer checks, plus a registry for host checks.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asifasharaf/laura-canvas.git",
+    "directory": "packages/qa"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean --sourcemap"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

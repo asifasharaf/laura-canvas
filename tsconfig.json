@@ -1,0 +1,38 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/layout"
+    },
+    {
+      "path": "packages/render-core"
+    },
+    {
+      "path": "packages/render-browser"
+    },
+    {
+      "path": "packages/render-node"
+    },
+    {
+      "path": "packages/qa"
+    },
+    {
+      "path": "packages/taste"
+    },
+    {
+      "path": "packages/presets"
+    },
+    {
+      "path": "packages/editor"
+    },
+    {
+      "path": "packages/agent-tools"
+    },
+    {
+      "path": "tests"
+    }
+  ]
+}

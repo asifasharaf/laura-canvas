@@ -1,0 +1,41 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": ".tsbuild",
+    "emitDeclarationOnly": true,
+    "types": ["node"]
+  },
+  "include": ["."],
+  "references": [
+    {
+      "path": "../packages/agent-tools"
+    },
+    {
+      "path": "../packages/core"
+    },
+    {
+      "path": "../packages/editor"
+    },
+    {
+      "path": "../packages/layout"
+    },
+    {
+      "path": "../packages/presets"
+    },
+    {
+      "path": "../packages/qa"
+    },
+    {
+      "path": "../packages/render-browser"
+    },
+    {
+      "path": "../packages/render-core"
+    },
+    {
+      "path": "../packages/render-node"
+    },
+    {
+      "path": "../packages/taste"
+    }
+  ]
+}
